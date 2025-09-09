@@ -14,10 +14,10 @@ private:
     unsigned int m_shaderID = 0;
     std::string m_shaderSource;
     std::string m_sourcePath;
-    std::string m_shaderName;             // <- changed from const char*
+    std::string m_shaderName;           
 
     std::string loadShaderSource(const std::string& sourcePath);
-    std::string getShaderType();          // <- return std::string
+    std::string getShaderType();     
     inline const char* getShaderSource() { return m_shaderSource.c_str(); }
     bool contains(const std::string& str, const std::string& sub);
 };

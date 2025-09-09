@@ -9,7 +9,7 @@
 Shader::Shader(const char* sourcePath)
     : m_sourcePath(sourcePath)
 {
-    m_shaderName = getShaderType();                    // now std::string
+    m_shaderName = getShaderType();                    
     m_shaderSource = loadShaderSource(sourcePath);
 
     if (m_shaderName == "vertex")
@@ -77,7 +77,7 @@ std::string Shader::getShaderType()
 {
     if (contains(m_sourcePath, "vertex")) return "vertex";
     if (contains(m_sourcePath, "fragment")) return "fragment";
-    return ""; // unknown
+    return "";
 }
 
 bool Shader::contains(const std::string& str, const std::string& sub)
