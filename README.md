@@ -19,4 +19,4 @@ cd Learnopengl.com-Tutorial
 cmake -S . -B build -DCMAKE_TOOLCHAIN_FILE=/path/to/vcpkg/scripts/buildsystems/vcpkg.cmake
 
 # Build
-cmake --build build```
+cmake --build build
