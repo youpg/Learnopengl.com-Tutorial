@@ -80,7 +80,6 @@ void Application::run()
 
           
 
-
         glfwSwapBuffers(m_window);
         glfwPollEvents();
     }
