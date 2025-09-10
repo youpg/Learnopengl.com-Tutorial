@@ -15,9 +15,6 @@ Each chapter is a separate folder (`01_HelloTriangle`, `02_Shaders`, …) built 
 >git clone https://github.com/youpg/Learnopengl.com-Tutorial.git
 >cd Learnopengl.com-Tutorial
 
-# Build 
->build.bat
-
 # Run
 >run.bat [chapterNumber]
 Example use: >run.bat 1, runs 1_HelloTriangle
